@@ -19,7 +19,7 @@ abstract contract ERC2981ContractWideRoyalties is ERC2981Base {
     }
 
     /// @inheritdoc	IERC2981Royalties
-    function royaltyInfo(uint256, uint256 value)
+    function royaltyInfo(uint256 idNFT, uint256 value)
         external
         view
         override
